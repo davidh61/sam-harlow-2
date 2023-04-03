@@ -5,6 +5,8 @@
 // To restart press CTRL + C in terminal and run `gridsome develop`
 
 module.exports = {
-  siteName: 'Gridsome',
-  plugins: []
+  siteName: 'Samuel harlow',
+  plugins: [],
+  siteUrl: 'https://davidh61.github.io',
+  pathPrefix: '/sam-harlow-2',
 }
