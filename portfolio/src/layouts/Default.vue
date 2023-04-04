@@ -11,7 +11,7 @@
 <static-query>
 query {
   metadata {
-    siteName
+    siteName 
   }
 }
 </static-query>

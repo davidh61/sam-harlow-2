@@ -1,6 +1,11 @@
 <template>
   <Layout>
 
+    <body>
+      <div class="text-container">
+        <h1>Sam Harlow</h1>
+      </div>
+    </body>
   </Layout>
 </template>
 
@@ -12,5 +17,5 @@ export default {
 }
 </script>
 
-<style>
+<style lang="scss">
 </style>

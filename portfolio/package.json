@@ -11,5 +11,9 @@
   "dependencies": {
     "gh-pages": "^5.0.0",
     "gridsome": "^0.7.0"
+  },
+  "devDependencies": {
+    "sass": "^1.60.0",
+    "sass-loader": "^10.1.1"
   }
 }
