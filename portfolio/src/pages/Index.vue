@@ -1,7 +1,7 @@
 <template>
   <Layout>
 
-    <body client-only>
+    <body>
       <div class="header-container">
         <h1>Sam Harlow</h1>
         <svg class="arrows" v-on:click="scrollToPortfolio">

@@ -1,5 +1,5 @@
 <template>
-  <div class="layout">
+  <div class="layout" client-only>
     <header class="header">
       <nav class="nav">
       </nav>
