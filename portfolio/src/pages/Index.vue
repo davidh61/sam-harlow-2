@@ -11,7 +11,7 @@
         </svg>
       </div>
       <div class="portfolio-container" id="portfolio">
-        <h2>Portfolio</h2>
+        <h2>SHOWREEL</h2>
         <div class="portfolio-content">
           <video src="@/assets/VID-20230405-WA0000.mp4" controls></video>
         </div>
@@ -40,7 +40,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: 'Raleway', sans-serif;
-  background-color: #000;
+  background-image: linear-gradient(white, pink, black);
 
   .header-container {
     height: 100vh;
@@ -53,7 +53,7 @@ body {
       margin: 0;
       font-size: 150px;
       color: rgba(225, 225, 225, .01);
-      background-image: url("https://images.unsplash.com/photo-1499195333224-3ce974eecb47?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=2cf549433129d4227d1879347b9e78ce&auto=format&fit=crop&w=1248&q=80");
+      background-image: url("https://blog.stockvault.net/wp-content/uploads/2020/02/preview-309.jpg");
       background-repeat: repeat;
       -webkit-background-clip: text;
       animation: animate 15s ease-in-out infinite;
@@ -159,7 +159,7 @@ body {
       margin: 0;
       font-size: 50px;
       color: rgba(225, 225, 225, .01);
-      background-image: url("https://images.unsplash.com/photo-1499195333224-3ce974eecb47?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=2cf549433129d4227d1879347b9e78ce&auto=format&fit=crop&w=1248&q=80");
+      background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/597f3433-65c0-46e3-9ea6-ad5a23ca5e80/ddbhprw-d2a12686-f609-47b3-aae3-a1aa28f09c25.png/v1/fill/w_1280,h_848,q_80,strp/_textures_grunge___scratches_by_iguessitsnick_ddbhprw-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9ODQ4IiwicGF0aCI6IlwvZlwvNTk3ZjM0MzMtNjVjMC00NmUzLTllYTYtYWQ1YTIzY2E1ZTgwXC9kZGJocHJ3LWQyYTEyNjg2LWY2MDktNDdiMy1hYWUzLWExYWEyOGYwOWMyNS5wbmciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.tZptKiv27MzUm1XAQ5lHanM00ShugI3CJcCTOQh2lz0");
       background-repeat: repeat;
       -webkit-background-clip: text;
       animation: animate 15s ease-in-out infinite;
