@@ -24,7 +24,6 @@ export default {
   },
   methods: {
     scrollToPortfolio(event) {
-      alert('Hello world')
       document.getElementById('portfolio').scrollIntoView({block: 'end', behavior: 'smooth'})
     }
   }
@@ -168,6 +167,9 @@ body {
 
     .portfolio-content {
       text-align: center;
+      video {
+        max-width: 95%;
+      }
     }
 
 
