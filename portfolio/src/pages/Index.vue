@@ -1,7 +1,5 @@
 <template>
   <Layout>
-
-    <body>
       <div class="header-container">
         <h1>Sam Harlow</h1>
         <svg class="arrows" v-on:click="scrollToPortfolio">
@@ -16,7 +14,6 @@
           <video src="@/assets/VID-20230405-WA0000.mp4" controls></video>
         </div>
       </div>
-    </body>
   </Layout>
 </template>
 
