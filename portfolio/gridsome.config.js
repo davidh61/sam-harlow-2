@@ -8,4 +8,5 @@ module.exports = {
   siteName: 'Samuel Harlow - Video Editor Extraordinaire',
   plugins: [],
   siteUrl: 'https://davidh61.github.io',
+  pathPrefix: '/sam-harlow-2'
 }
