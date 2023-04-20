@@ -14,13 +14,16 @@
           <video src="@/assets/VID-20230405-WA0000.mp4" controls></video>
         </div>
       </div>
+      <div class="contact-container">
+        <h2>CONTACT</h2>
+      </div>
   </Layout>
 </template>
 
 <script>
 export default {
   metaInfo: {
-    title: 'Hello, world!'
+    title: ''
   },
   methods: {
     scrollToPortfolio(event) {
@@ -36,7 +39,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: 'Raleway', sans-serif;
-  background-image: linear-gradient(white, pink, black);
+  background-image: linear-gradient(white, pink, rgb(105, 82, 86));
 
   .header-container {
     height: 100vh;
@@ -171,8 +174,35 @@ body {
         max-width: 95%;
       }
     }
+  }
 
+  .contact-container {
+      width: 100vw;
+    display: flex;
+    justify-content: center;
+    padding-top: 25px;
+    flex-direction: column;
 
+    h2 {
+      margin: 0;
+      font-size: 50px;
+      color: rgba(225, 225, 225, .01);
+      background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/597f3433-65c0-46e3-9ea6-ad5a23ca5e80/ddbhprw-d2a12686-f609-47b3-aae3-a1aa28f09c25.png/v1/fill/w_1280,h_848,q_80,strp/_textures_grunge___scratches_by_iguessitsnick_ddbhprw-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9ODQ4IiwicGF0aCI6IlwvZlwvNTk3ZjM0MzMtNjVjMC00NmUzLTllYTYtYWQ1YTIzY2E1ZTgwXC9kZGJocHJ3LWQyYTEyNjg2LWY2MDktNDdiMy1hYWUzLWExYWEyOGYwOWMyNS5wbmciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.tZptKiv27MzUm1XAQ5lHanM00ShugI3CJcCTOQh2lz0");
+      background-repeat: repeat;
+      -webkit-background-clip: text;
+      animation: animate 15s ease-in-out infinite;
+      text-align: center;
+      text-transform: uppercase;
+      font-weight: 900;
+      margin-bottom: 150px;
+    }
+
+    .contact-content {
+      text-align: center;
+      video {
+        max-width: 95%;
+      }
+    }
   }
 
   @keyframes animate {
