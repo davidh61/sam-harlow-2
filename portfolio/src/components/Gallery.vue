@@ -1,36 +1,33 @@
 <template>
     <div class="portfolio-content">
-        <carousel perPage="1" navigationEnabled="">
-            <slide>
-                <h2>SHOWREEL</h2>
-                <video src="@/assets/VID-20230405-WA0000.mp4" controls></video>
-            </slide>
-            <slide>
-                <h2>MUSIC VIDEOS</h2>
-                <video src="@/assets/VID-20230405-WA0000.mp4" controls></video>
-            </slide>
-            <slide>
-                <h2>SHORT FILMS</h2>
-                <video src="@/assets/VID-20230405-WA0000.mp4" controls></video>
-            </slide>
-            <slide>
-                <h2>PROMOTIONAL</h2>
-                <video src="@/assets/VID-20230405-WA0000.mp4" controls></video>
-            </slide>
-        </carousel>
+        <ClientOnly>
+            <carousel perPage="1" navigationEnabled="">
+                <slide>
+                    <h2>SHOWREEL</h2>
+                    <video src="@/assets/VID-20230405-WA0000.mp4" controls></video>
+                </slide>
+                <slide>
+                    <h2>MUSIC VIDEOS</h2>
+                    <video src="@/assets/VID-20230405-WA0000.mp4" controls></video>
+                </slide>
+                <slide>
+                    <h2>SHORT FILMS</h2>
+                    <video src="@/assets/VID-20230405-WA0000.mp4" controls></video>
+                </slide>
+                <slide>
+                    <h2>PROMOTIONAL</h2>
+                    <video src="@/assets/VID-20230405-WA0000.mp4" controls></video>
+                </slide>
+            </carousel>
+        </ClientOnly>
     </div>
 </template>
   
 <script>
-import { Carousel, Slide } from 'vue-carousel';
 
 
 export default {
     name: 'Gallery',
-    components: {
-        Carousel,
-        Slide
-    },
     data() {
         return {
             message: 'Try change me!'
