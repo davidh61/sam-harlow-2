@@ -1,33 +1,35 @@
 <template>
   <Layout>
-      <div class="header-container">
-        <h1>Sam Harlow</h1>
-        <svg class="arrows" v-on:click="scrollToPortfolio">
-          <path class="a1" d="M0 0 L30 32 L60 0"></path>
-          <path class="a2" d="M0 20 L30 52 L60 20"></path>
-          <path class="a3" d="M0 40 L30 72 L60 40"></path>
-        </svg>
-      </div>
-      <div class="portfolio-container" id="portfolio">
-        <h2>SHOWREEL</h2>
-        <div class="portfolio-content">
-          <video src="@/assets/VID-20230405-WA0000.mp4" controls></video>
-        </div>
-      </div>
-      <div class="contact-container">
-        <h2>CONTACT</h2>
-      </div>
+    <div class="header-container">
+      <h1>Sam Harlow</h1>
+      <svg class="arrows" v-on:click="scrollToPortfolio">
+        <path class="a1" d="M0 0 L30 32 L60 0"></path>
+        <path class="a2" d="M0 20 L30 52 L60 20"></path>
+        <path class="a3" d="M0 40 L30 72 L60 40"></path>
+      </svg>
+    </div>
+    <div class="portfolio-container" id="portfolio">
+      <Gallery />
+    </div>
+    <div class="contact-container">
+      <h2>CONTACT</h2>
+    </div>
   </Layout>
 </template>
 
 <script>
+import Gallery from '~/components/Gallery.vue'
+
 export default {
+  components: {
+    Gallery
+  },
   metaInfo: {
     title: ''
   },
   methods: {
     scrollToPortfolio(event) {
-      document.getElementById('portfolio').scrollIntoView({block: 'end', behavior: 'smooth'})
+      document.getElementById('portfolio').scrollIntoView({ block: 'end', behavior: 'smooth' })
     }
   }
 }
@@ -168,16 +170,10 @@ body {
       margin-bottom: 150px;
     }
 
-    .portfolio-content {
-      text-align: center;
-      video {
-        max-width: 95%;
-      }
-    }
   }
 
   .contact-container {
-      width: 100vw;
+    width: 100vw;
     display: flex;
     justify-content: center;
     padding-top: 25px;
@@ -199,6 +195,7 @@ body {
 
     .contact-content {
       text-align: center;
+
       video {
         max-width: 95%;
       }
@@ -224,4 +221,5 @@ body {
       background-position: right top;
     }
   }
-}</style>
+}
+</style>
